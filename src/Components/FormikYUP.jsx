@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import { SignupSchema } from "../Schemas";
+import { toast } from "react-toastify";
 
 const initialValues = {
   name: "",
@@ -18,10 +19,12 @@ function FormikYUP() {
       validationSchema: SignupSchema,
       onSubmit: (values, action) => {
         console.log(values);
+        toast.success("signup successfully")
        
         action.resetForm();
       },
     });
+   
    
   return (
     <>
