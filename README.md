@@ -2,6 +2,8 @@
 
 This project demonstrates a **Responsive Signup Form** built using **React**, **Formik**, and **Yup**. The form features input validation using **Yup** for strong password policies, email format validation, and password confirmation matching.
 
+[HostedLink](https://formik-yup-beta.vercel.app/)
+
 
 
 ## 🛠️ Tech Stack
